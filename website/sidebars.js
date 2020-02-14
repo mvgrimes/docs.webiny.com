@@ -13,6 +13,19 @@ module.exports = {
       // "deep-dive/deployment",
       'deep-dive/plugins-crash-course',
     ],
+    Tutorials: [
+      {
+        type: 'category',
+        label: 'Hello World',
+        items: ['tutorials/hello-world/introduction',
+          'tutorials/hello-world/create-project',
+          'tutorials/hello-world/add-new-route',
+          'tutorials/hello-world/create-menu',
+          'tutorials/hello-world/customize-styling',
+          'tutorials/hello-world/create-plugin'
+        ],
+      }
+    ],
     'API Development': [
       'coming-soon',
       /*"api-overview",
